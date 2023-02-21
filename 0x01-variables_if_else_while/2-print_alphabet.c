@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - prints tha alphabets in mowercase, followed by a \n
-*Retun: always 0
+*Return: always 0
 */
 int main(void)
 {
