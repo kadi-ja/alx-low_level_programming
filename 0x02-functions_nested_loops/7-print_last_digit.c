@@ -10,13 +10,16 @@ int l = r % 10;
 if (r > 0)
 {
 return (l);
+_putchar(l + '0');
 }
 else if (r == 0)
 {
 return (l);
+_putchar(l + '0');
 }
 else
 {
 return (-1 * l);
-} 
+_putchar(l+ '0');
+ } 
 }
