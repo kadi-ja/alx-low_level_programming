@@ -10,17 +10,17 @@ int l = d % 10;
 int n = -1 * l;
 if (d > 0)
 { 
-return (l);
 _putchar('0' + l);
+return (l);
 }
 else  if (d == 0)
 { 
-return (l);
 _putchar('0' + l);
+return (l);
 }
 else  
 { 
-return (n);
 _putchar('0' + n);
+return (n);
 }
 }
