@@ -4,15 +4,16 @@
  *
  *Return: always 0
  */
-void jack_bauer(void)
+void jack_bauer()
 {
 int h, m;
-for (h = 0; h <= 23; h++)
+for (h = 00; h <= 23; h++)
 {
-for (m = 0; m <= 59; m++)
+for (m = 00; m <= 59; m++)
 {
-return (h':'m);
+  _putchar(h':'m');
+
 }
-return ('\n');
+_putchar ('\n');
 }
 }
