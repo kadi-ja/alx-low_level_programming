@@ -11,7 +11,7 @@ int h, m;
 for (h = 0; h <= 23; h++)
 {
 for (m = 0; m <= 59; m++)
- printf("%d:%d", h, m);
+ printf("%2d:%2d", h, m);
 }
 _putchar ('\n');
 
