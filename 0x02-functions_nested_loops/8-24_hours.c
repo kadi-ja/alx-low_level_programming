@@ -7,14 +7,12 @@
 void jack_bauer()
 {
 int h, m;
-for (h = 00; h <= 23; h++)
+for (h = 0; h <= 23; h++)
 {
-for (m = 00; m <= 59; m++)
+for (m = 0; m <= 59; m++)
 {
-  _putchar(h);
-   _putchar(':');
-   _putchar(m);
-}
+ printf("%d:%d", h, m);
+  
 _putchar ('\n');
 }
 }
