@@ -4,10 +4,10 @@
  *
  *
  */
-void times_table(int)
+void times_table(void)
 {
-  int a;
-  int b;
+  int a = 0;
+  int b = 0;
   int c = a * b;
   for (a = 0; a >= 9; a++)
     {
