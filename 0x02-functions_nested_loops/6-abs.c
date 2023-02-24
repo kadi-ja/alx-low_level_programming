@@ -4,9 +4,8 @@
  *
  *Return: always 0
  */
-int _abs(int)
+int _abs(int r, int y)
 {
-int r;
 int y = r * -1;
 if (r > 0)
 {
