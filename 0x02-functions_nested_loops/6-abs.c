@@ -6,7 +6,7 @@
  */
 int _abs(int r)
 {
-int resut = r * -1;
+int result = r * -1;
 if (r > 0)
 {
 _putchar(r);
