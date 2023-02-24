@@ -17,7 +17,7 @@ _putchar(r);
 }
 else
 {
-_putchar(result);
+result (result);
 }
 return (0);
 }
