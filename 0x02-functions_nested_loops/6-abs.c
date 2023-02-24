@@ -9,7 +9,7 @@ int _abs(int r)
 int result = r * -1;
 if (r > 0)
 {
-_putchar('%d', r);
+printf("%d",r);
 }
 else if (r == 0)
 {
