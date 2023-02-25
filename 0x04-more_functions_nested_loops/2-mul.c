@@ -4,7 +4,7 @@
  *@a: int 
  *@b: int
  *Return: alawys 0
+ */
 int mul(int a, int b)
 {
-return (a * b);
 }
