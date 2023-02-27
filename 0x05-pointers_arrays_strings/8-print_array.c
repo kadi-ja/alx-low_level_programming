@@ -17,7 +17,8 @@ _putchar(a[i]);
 else
 {
 _putchar(a[i]);
-_putchar(', ');
+_putchar(',');
+_putchar(' ');
 }
 }
 _putchar('\n');
