@@ -2,14 +2,11 @@
 /**
  *_strlen - a function that returns the length of a string.
  *@s: string data type
- *Return: always 0
+ *Return: the length of the string
  */
 int _strlen(char *s)
 {
 int i;
-for (i = 0; s[i] != '\0'; ++i)
-{
-_putchar(i);
-}
-return (0);
+for (i = 0; s[i] != '\0'; ++i);
+return (i);
 }
