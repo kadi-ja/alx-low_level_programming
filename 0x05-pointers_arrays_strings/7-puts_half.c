@@ -17,4 +17,7 @@ for (j = half ; str[j] != '\0'; j++)
 {
 _putchar(str[j]);
 }
+_putchar('\n');
 }
+
+
