@@ -1,0 +1,1 @@
+this project makes us practice more pointers, arrays,and strings practices.
