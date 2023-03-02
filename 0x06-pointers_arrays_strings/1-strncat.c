@@ -6,7 +6,7 @@
  *@n: data type
  *Return: dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i, j;
 for (i = 0; dest[i] != '\0'; i++)
