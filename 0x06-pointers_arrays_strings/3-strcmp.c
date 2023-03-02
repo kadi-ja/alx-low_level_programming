@@ -4,7 +4,7 @@
 *@s1: data type
 *@s2: data type
 *@i: data type
-*Return: dest
+*Return: s1 - s2
 */
 int _strcmp(char *s1, char *s2)
 {
@@ -13,16 +13,11 @@ while (s1[i] != '\0' && s2[i] != '\0')
 {
 if (s1[i] != s2[i])
 {
-flag = 1;
-break;
+return (s1[i] - s2[i]);
 }
 i++;
 }
-if (s1[i] != '\0' || s2[i] != '\0') 
-return 1;
-if (flg == 0)
-return 0;
 else
-return 1;
+return (0);
 }
 
