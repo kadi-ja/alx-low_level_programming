@@ -3,7 +3,6 @@
 *_strcmp -  a function that compares two strings.
 *@s1: data type
 *@s2: data type
-*@i: data type
 *Return: s1 - s2
 */
 int _strcmp(char *s1, char *s2)
