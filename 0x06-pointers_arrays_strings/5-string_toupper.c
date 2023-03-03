@@ -18,5 +18,6 @@ else
 {
 str[i] = str[i];
 }
-}return (str);
+}
+return (str);
 }
