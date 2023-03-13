@@ -2,7 +2,7 @@
 
 /**
  *_puts_recursion -  a function that prints a string.
- *@s: data type 
+ *@s: data type
  */
 
 void _puts_recursion(char *s)
@@ -12,5 +12,8 @@ if (*s)
 _puts_recursion(s + 1);
 _putchar (*s);
 }
+else
+{
 _putchar ('\n');
+}
 }
