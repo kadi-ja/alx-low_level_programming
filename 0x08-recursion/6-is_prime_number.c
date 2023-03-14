@@ -12,7 +12,7 @@ if (n < 2)
 return (0);
 if (n < 4)
 return (1);
-return (hai(n, 2));
+return (help(n, 2));
 }
 
 /**
@@ -34,18 +34,18 @@ return (_sqrt(x, i + 1));
 }
 
 /**
- * hai - helper function, recursive steps taken
+ * help - helper function, recursive steps taken
  * @n: number given to original function is_prime_number
  * @d: incrementer divisor
  * Return: 0 if not prime, 1 if prime
  */
 
-int hai(int n, int d)
+int help(int n, int d)
 {
 if (n % d == 0)
 return (0);
 else if (_sqrt(n, 1) < d)
 return (1);
 else
-return (hai(n, d + 1));
+return (help(n, d + 1));
 }
