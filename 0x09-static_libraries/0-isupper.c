@@ -1,11 +1,14 @@
 #include "main.h"
-
 /**
- *_putchar - a function that write the char
- *@c: data type
- *Return: 1 success
+ * _isupper - uppercase letters
+ * @c: char to check
+ *
+ * Return: 0 or 1
  */
-int _putchar(char c)
+int _isupper(int c)
 {
-return (write(1, &c, 1));
+if (c >= 'A' && c <= 'Z')
+return (1);
+else
+return (0);
 }
