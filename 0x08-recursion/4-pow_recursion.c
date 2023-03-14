@@ -4,7 +4,7 @@
 *_pow_recursion - a function that returns the factorial of a given number.
  *@x: data type
  *@y: data type
- *Return: factovalue of x power of y 
+ *Return: factovalue of x power of y
  */
 
 int _pow_recursion(int x, int y)
