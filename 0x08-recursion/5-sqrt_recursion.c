@@ -18,7 +18,7 @@ return (helper(n, 1));
  *Return: square root of the number
  */
 
- int helper(int n, int i)
+int helper(int n, int i)
 {
 int square = i * i;
 if (square == n)
@@ -31,4 +31,4 @@ return (helper(n, i + 1));
 }
 else
 return (-1);
- }
+}
