@@ -27,7 +27,9 @@ printf("Error\n");
 return (1);
 }
 else
+{
 sum += n;
+}
 printf("%d\n", sum);
 }
 return (0);
