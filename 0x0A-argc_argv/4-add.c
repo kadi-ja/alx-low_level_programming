@@ -9,20 +9,26 @@
  *Return: always 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char argv[])
 {
-int i, sum;
+int i, n, sum = 0;
+char *ptr;
 if (argc < 2)
 {
 printf("0\n");
 return (0);
 }
-for (i = 1; i < argc; i++)
+for (i = 1; argv[i]; i++)
 {
-if  (is digit(atoi(argv[i])))
-sum += atoi(argv[i]);
-printf("%d\", sum);
-else
+n = strtol(argv[i], &ptr, 10);
+if (*ptr)
+{
 printf("Error\n");
 return (1);
+}
+else
+sum += n);
+printf("%d\", sum);
+}
+return (0);
 }
