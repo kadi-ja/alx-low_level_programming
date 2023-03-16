@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
+#include <stdlib.h>
+
+int atoi(const char strn)
 
 /**
  *main - a program that multiplies two numbers.
@@ -11,16 +13,15 @@
 
 int main(int argc, char *argv[])
 {
-  int i, mul = 0, intcon;
+  int i, val1, val2;
   if ( argc < 3 || argc > 3)
     {
       printf("Error\n");
       return (1);
     } 
   else
-  for (i = 1; i < argc; i++)
-    intcon = atoi(argv);
-mul *= (argv[i]);
-printf("%d\n", mul);
+val1 = atoi(argv[1]);
+  val1 = atoi(argv[2]);
+printf("%d\n", val1 * val2);
   return (0);
 }
