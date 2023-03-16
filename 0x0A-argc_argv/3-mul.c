@@ -2,8 +2,6 @@
 #include "main.h"
 #include <stdlib.h>
 
-int atoi(const char strn)
-
 /**
  *main - a program that multiplies two numbers.
  *@argc: argument count
