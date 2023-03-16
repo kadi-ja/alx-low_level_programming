@@ -17,7 +17,7 @@ if (argc < 2)
 printf("0\n");
 return (0);
 }
-for(i = 1; i < argc; i++);
+for (i = 1; i < argc; i++)
 {
 if  (is digit(argv[i]))
 sum += atoi(argv[i];
