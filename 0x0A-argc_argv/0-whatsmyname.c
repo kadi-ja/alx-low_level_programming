@@ -5,7 +5,6 @@
  *main - a program that prints its name, followed by a new line.
  *@argc: argument count
  *@argv: argument verctor
- *@i: data type
  *Return: always 0
  */
 int main(int argc, char *argv[])
