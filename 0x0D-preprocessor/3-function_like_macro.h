@@ -1,11 +1,11 @@
 
-#include "main.h"
+#include <stdio.h>
 #ifndef _3_FUNCTION_LIKE_MACRO_H_
 #define _3_FUNCTION_LIKE_MACRO_H_
 
 #define ABS(x) if(x >= 0) \
-_putchar(x);\
+printf("%d\n", x);\
 else \
-_putchar(x*(-1));
+printf("%d\n", x*(-1));
 
 #endif
