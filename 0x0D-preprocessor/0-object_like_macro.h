@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 #define SIZE  1024
 
 /**
@@ -8,5 +8,5 @@
 int main(void)
 {
 SIZE
-  return (0);
+return(0);
 }
