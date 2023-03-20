@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-SIZE
-return(0);
+foo = (char *) malloc (SIZE);
+return (0);
 }
