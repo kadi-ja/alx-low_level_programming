@@ -1,12 +1,6 @@
-#include "main.h"
-#define SIZE  1024
+#ifndef 0-object_like_macro.h
+#define 0-object_like_macro.h
 
-/**
- *main - a header file that defines a macro
- *Return: always 0
- */
-int main(void)
-{
-foo = (char *) malloc (SIZE);
-return (0);
-}
+#define SIZE 1024
+
+#endif
