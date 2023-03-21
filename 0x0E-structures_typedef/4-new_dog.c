@@ -6,7 +6,7 @@
  * new_dog - a function that creates a new dog.
  * @name: data type
  * @age: data type
- * @owner: data type 
+ * @owner: data type
  * Return: new dog
  */
 
