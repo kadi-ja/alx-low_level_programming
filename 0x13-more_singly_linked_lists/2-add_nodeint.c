@@ -10,15 +10,15 @@
 
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-  listint_t *qtr;
-  if (head == NULL)
-    return (NULL);
-  qtr = malloc(sizeof(listint_t));
-  if (qtr == NULL)
-    return (NULL);
-  qtr->n = n;
-  qtr->next = *head;
-  *head = qtr;
-  return (qtr);
-  free(qtr);
+ listint_t *qtr;
+ if (head == NULL)
+ return (NULL);
+ qtr = malloc(sizeof(listint_t));
+ if (qtr == NULL)
+ return (NULL);
+ qtr->n = n;
+ qtr->next = *head;
+ *head = qtr;
+ return (qtr);
+ free(qtr);
 }
