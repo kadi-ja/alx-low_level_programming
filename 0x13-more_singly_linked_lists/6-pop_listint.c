@@ -18,7 +18,7 @@ if (head == NULL || *head == NULL)
 return (0);
 beg = *head;
 *head = beg->next;
-l = start->n;
+l = start->l;
 free(beg);
 return (l);
 }
