@@ -20,5 +20,5 @@ listint_t *add_nodeint(listint_t **head, const int n)
  qtr->next = *head;
  *head = qtr;
  return (qtr);
- free(qtr);
+ 
 }
